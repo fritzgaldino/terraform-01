@@ -12,4 +12,4 @@ Ao executar o código abaixo, uma instância EC2 será criada na região us-east
 * Script de Inicialização: Executa userdata.sh para configurar a instância automaticamente
 * Perfil IAM: Associado ao perfil zero1-role
   
-![image](https://github.com/user-attachments/assets/80d8175a-6d33-42fc-98ba-96f61702a2bd)
+![image](https://github.com/user-attachments/assets/dcd0c5d3-9109-4248-8434-f050eede4ca1)
