@@ -10,7 +10,7 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "us-east-1"
-  profile = "zero1-terraform"
+  profile = "zero1"
 }
 
 resource "aws_instance" "bia-dev" {
