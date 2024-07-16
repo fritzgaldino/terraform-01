@@ -14,12 +14,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "bia-dev" {
-  ami = "ami-02f3f602d23f1659d"
-  instance_type = "t3.micro"
+  ami = "ami-01fccab91b456acc2"
+  instance_type = "t2.micro"
   tags = {
-    Name = "bia-terraform"
+    Name = "zero1-terraform"
   }
   vpc_security_group_ids = [ "SECURITY_GROUP" ]
   user_data = file("userdata.sh")
-  iam_instance_profile = "ROLE"
+  iam_instance_profile = "zero1-ROLE"
 }
