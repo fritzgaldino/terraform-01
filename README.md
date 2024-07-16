@@ -11,3 +11,5 @@ Ao executar o código abaixo, uma instância EC2 será criada na região us-east
 * Grupo de Segurança: sg-0fc318f9d37f2088a - Associado ao ID especificado por SECURITY_GROUP
 * Script de Inicialização: Executa userdata.sh para configurar a instância automaticamente
 * Perfil IAM: Associado ao perfil zero1-role
+  
+![image](https://github.com/user-attachments/assets/80d8175a-6d33-42fc-98ba-96f61702a2bd)
