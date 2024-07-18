@@ -13,7 +13,7 @@ provider "aws" {
   profile = "zero1"
 }
 
-resource "aws_instance" "bia-dev" {
+resource "aws_instance" "zero1-dev" {
   ami = "ami-01fccab91b456acc2"
   instance_type = "t2.micro"
   tags = {
